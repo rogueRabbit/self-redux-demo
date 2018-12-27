@@ -3,8 +3,8 @@ import './index.css';
 
 export default class ScenicForm extends Component {
     render() {
-        return {
-
-        }
+        return (
+            <div>1</div>
+        )
     }
 }
