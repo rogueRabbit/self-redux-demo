@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+
+.scenicContainer {
+    margin-top: 20px;
+}
+
+.scenicUl {
+    list-style: none;
+}
+
+.scenicUl li {
+    height: 90px;
+    margin: 0 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+}
+
+.scenicDeatil {
+    display: flex;
+}
+
+.leftImage {
+    width: 80px;
+}
+
+.leftImage .scenicPictiure {
+    width: 80px;
+    height: 80px;
+}
+
+.rightContent {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.rightProduct {
+    flex: 1;
+}
+
+.proName {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.proTktSpot {
+    font-size: 12px;
+    color: #999;
+    margin-top: 4x;
+    height: 15px;
+    line-height: 15px;
+}
+
+.proTktSpot span {
+    margin-right: 9px;
+}
+
+.proActInfo span {
+    height: 15px;
+    line-height: 16px;
+    font-size: 12px;
+    margin-right: 9px;
+}
+
+.listScore {
+    color: #099fde;
+}
+
+.proSaleText {
+    color: #999;
+}
+
+.tag {
+    color:  #099fde;
+    border: 1px solid  #099fde;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.proPrice {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.priceInfo {
+    font-size: 12px;
+    color: #f40;
+}
+
+.priceInfo i {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+.proText {
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
