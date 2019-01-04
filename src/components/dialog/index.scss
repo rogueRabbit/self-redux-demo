@@ -1,0 +1,43 @@
+.dialog-con {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 11;
+    .dialog-context {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16rem;
+        height: 8.8rem;
+        transform: translate3d(-50%, -50%, 0);
+        background-color: #ffffff;
+        z-index: 12;
+        border-radius: 0.213333rem;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        .content-detail {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.933333rem;
+            color:#333;
+            flex: 5;
+            text-align: left;
+        }
+        .confirm-btn {
+            flex: 2 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.933333rem;
+            color: #333;
+            text-align: left;
+            border-top: 1px solid #eee;
+        }
+    }
+}

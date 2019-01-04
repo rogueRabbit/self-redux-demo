@@ -1,0 +1,16 @@
+.score {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.scoreList .stage-0 {
+    background: url('./images/stage-0.png') no-repeat center center;
+    background-size: 75%;
+}
+
+.scoreList .stage-1 {
+    background: url('./images/stage-1.png') no-repeat center center;
+    background-size: 75%;
+}
